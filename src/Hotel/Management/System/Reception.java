@@ -19,20 +19,6 @@ public class Reception extends JFrame {
         panel1.setBackground(new Color(3,45,48));
         add(panel1);
 
-        ImageIcon i111 = new ImageIcon(ClassLoader.getSystemResource("icon/cccc.gif"));
-        Image i22 = i111.getImage().getScaledInstance(800,800, Image.SCALE_DEFAULT);
-        ImageIcon imageIcon111 = new ImageIcon(i22);
-        JLabel label11 = new JLabel(imageIcon111);
-        label11.setBounds(300,20,800,800);
-        panel.add(label11);
-
-        ImageIcon i11 = new ImageIcon(ClassLoader.getSystemResource("icon/login.gif"));
-        Image i2 = i11.getImage().getScaledInstance(250,250, Image.SCALE_DEFAULT);
-        ImageIcon imageIcon11 = new ImageIcon(i2);
-        JLabel label1 = new JLabel(imageIcon11);
-        label1.setBounds(5,530,250,250);
-        panel1.add(label1);
-
         JButton btnNCF = new JButton("New Customer Form");
         btnNCF.setBounds(30,30,200,30);
         btnNCF.setBackground(Color.BLACK);
